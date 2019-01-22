@@ -57,7 +57,8 @@
                 <EditText
                     android:id="@+id/edt_ClientIP"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:text="192.168.1.102"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -71,7 +72,8 @@
                 <EditText
                     android:id="@+id/edt_ClientPort"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:text="1470"/>
             </LinearLayout>
         </LinearLayout>
         <Button
@@ -87,8 +89,7 @@
         <TextView
             android:id="@+id/txt_result"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="textView !!!!!!!!!!!!!!!!!"/>
+            android:layout_height="match_parent"/>
     </ScrollView>
     <LinearLayout
         android:layout_width="match_parent"
@@ -106,5 +107,11 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="SEND"/>
+        <Button
+            android:id="@+id/btn_ClientreSend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="reSEND"/>
     </LinearLayout>
 </LinearLayout>
